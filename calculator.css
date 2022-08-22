@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.wholebody{
+    margin: 80px auto;
+    width: 300px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0,0.8);
+    color: white;
+    border-radius: 5px;
+}
+#screen{
+    margin-top: 5px;
+    width: 95%;
+    height: 50px;
+ margin-left: 5px;
+ border-style: solid;
+ background-color: rgba(32, 178, 170,0.6)
+}
+.calculator{
+    margin: 5px;
+    width: 95%;
+    margin-top: 2px;
+}
+td{
+    border-style: ridge;
+    padding: 15px;
+    height: 70%;
+    border-radius: 5px;
+}

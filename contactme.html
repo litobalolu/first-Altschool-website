@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactme.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="navigation">
+                <div class="logo">
+                    <h1 class="brandname">&#60/peteloba&#62</h1>
+                </div>
+                    <nav  class="navlinks">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contactme.html">Contact</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+        <main>
+            <div class="contactme" id="contact">
+                <h2>Contact Me</h2>
+                <form action="post" id="formbody">
+                    <label for="name" id="name">Name: </label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    <br>
+                    <label for="email" id="email">Email: </label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                    <br>
+                    <label for="message" id="message">Message: </label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter subject here"></textarea>
+                    <br>
+                    <label for="Priority" id="Priority"></label>
+                    <select name="Priority" id="priority" required>
+                        <option value="Express">Express</option>
+                        <option value="Urgent">Urgent</option>
+                        <option value="Little Importance">Little Importance</option>
+                        <option value="Anytime">Anytime</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="submit" id="submit">
+                </form>
+            </div>
+        </main>
+</body>
+</html>
